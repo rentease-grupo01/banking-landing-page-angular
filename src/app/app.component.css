@@ -11,6 +11,6 @@ img { max-width: 100%; height: auto; }
 #Press { 
     display: flex; 
     justify-content: center; 
-    margin: 30px auto; /* Esto centra el div en su totalidad horizontalmente y añade un margen superior e inferior de 30px */
+    margin: 30px auto; 
 }
 #img-pg { border-radius: 16px; }
