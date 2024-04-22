@@ -1,5 +1,5 @@
 body { font-family: Arial, sans-serif; }
-.container { width: 80%; margin: auto; text-align: center; padding: 20px; }
+.container { width: 80%; margin: auto; padding: 20px; }
 .header { font-size: 2.5em; font-weight: bold; }
 .lead { font-size: 1.2em; margin: 20px auto; max-width: 600px; }
 .btn { background-color: green; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
@@ -8,6 +8,9 @@ img { max-width: 100%; height: auto; }
 /* Estilos del archivo styles.css */
 #Texto-Pren, #Encabezado { font-family: Montserrat; }
 #Sesion { border-radius: 25px; }
-#Press { margin: 30px; margin-left: 25px; margin-right: 25px; }
-#Imagen { margin: 5px; }
+#Press { 
+    display: flex; 
+    justify-content: center; 
+    margin: 30px auto; /* Esto centra el div en su totalidad horizontalmente y añade un margen superior e inferior de 30px */
+}
 #img-pg { border-radius: 16px; }
