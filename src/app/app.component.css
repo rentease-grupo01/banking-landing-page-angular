@@ -5,12 +5,12 @@ body { font-family: Arial, sans-serif; }
 .btn { background-color: green; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
 img { max-width: 100%; height: auto; }
 
-/* Estilos del archivo styles.css */
+/* Estilos Boostrap Adecuados al css basico*/
 #Texto-Pren, #Encabezado { font-family: Montserrat; }
 #Sesion { border-radius: 25px; }
 #Press { 
     display: flex; 
     justify-content: center; 
-    margin: 30px auto; 
+    margin: 30px auto;
 }
 #img-pg { border-radius: 16px; }
