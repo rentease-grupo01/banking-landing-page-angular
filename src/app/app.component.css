@@ -1,16 +1,58 @@
-body { font-family: Arial, sans-serif; }
-.container { width: 80%; margin: auto; padding: 20px; }
-.header { font-size: 2.5em; font-weight: bold; }
-.lead { font-size: 1.2em; margin: 20px auto; max-width: 600px; }
-.btn { background-color: green; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
-img { max-width: 100%; height: auto; }
-
-/* Estilos del archivo styles.css */
-#Texto-Pren, #Encabezado { font-family: Montserrat; }
-#Sesion { border-radius: 25px; }
-#Press { 
-    display: flex; 
-    justify-content: center; 
-    margin: 30px auto; /* Esto centra el div en su totalidad horizontalmente y añade un margen superior e inferior de 30px */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centra todo el contenido de texto */
 }
-#img-pg { border-radius: 16px; }
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0.5em 0; /* Agrega un poco de espacio arriba y abajo del encabezado */
+}
+
+.lead {
+    font-size: 1.2em;
+    margin: 20px auto;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px; /* Si quieres bordes redondeados en tu imagen */
+}
+
+/* Media en diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+    .header {
+        font-size: 2em; /* Tamaño más pequeño para pantallas pequeñas */
+    }
+
+    .lead {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 95%; /* Más ancho para usar más espacio en pantallas pequeñas */
+    }
+
+    .btn {
+        padding: 8px 15px; /* Más pequeño para pantallas pequeñas */
+    }
+}
