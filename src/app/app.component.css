@@ -1,10 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: #f0f0f0;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+* {
+    box-sizing: border-box;
+}
+
 
 .container { width: 80%; margin: auto; padding: 20px; }
 
@@ -93,3 +98,44 @@ footer p {
 }
 
 #img-pg { border-radius: 16px; justify-content: center;}
+
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Permite la adaptación a pantallas más pequeñas */
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.service {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #49BFA7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+}
+
+.icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.service-description {
+    font-size: 1em;
+}
