@@ -1,16 +1,16 @@
 body {
-  font-family: 'Montserrat', sans-serif;
-  background: #f0f0f0;
-  color: #000;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background: #f0f0f0;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .container { width: 80%; margin: auto; padding: 20px; }
@@ -20,80 +20,80 @@ body {
 .lead { font-size: 1.2em; margin: 20px auto; max-width: 600px; text-align: center;}
 
 .btn { background-color: green; 
-  color: white;
-  padding: 10px 20px; 
-  text-decoration: none; 
-  border-radius: 5px; 
-  border: none;
-  transition: background-color 0.3s;
+    color: white;
+    padding: 10px 20px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    border: none;
+    transition: background-color 0.3s;
 }
 
 img { max-width: 100%; height: auto; }
 
 
 .team-section {
-  background: white;
-  text-align: center;
-  margin: auto;
-  padding: 20px;
+    background: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
 }
 
 .team-section h2 {
-  color: #333;
-  margin: 0;
-  padding-bottom: 10px;
-  text-align: center;
+    color: #333;
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .team-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-  padding: 15px;
-  background-color: #E8F8F5;
-  border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+    background-color: #E8F8F5;
+    border-radius: 40px;
 }
 
 .team-member {
-  background-color: white;
-  border-radius: 15px;
-  padding: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .team-member img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 .team-member p {
-  color: #333;
-  margin-top: 5px;
+    color: #333;
+    margin-top: 5px;
 }
 
 footer {
-  background: #333;
-  color: white;
-  text-align: left;
-  padding: 20px 0;
+    background: #333;
+    color: white;
+    text-align: left;
+    padding: 20px 0;
 }
 
 footer p {
-  margin: 5px 0;
+    margin: 5px 0;
 }
 
 .social-icons {
-  padding-top: 10px;
-  text-align: right;
+    padding-top: 10px;
+    text-align: right;
 }
 
 .social-icons img {
-  width: 24px;
-  height: 24px;
-  margin: 0 5px;
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
 }
 
 #Texto-Pren, #Encabezado { font-family: Montserrat; }
@@ -101,137 +101,112 @@ footer p {
 #Sesion { border-radius: 25px; display: block; width: max-content; margin: 20px auto;}
 
 #Press { 
-  display: flex; 
-  justify-content: center; 
-  margin: 30px auto;
+    display: flex; 
+    justify-content: center; 
+    margin: 30px auto;
 }
 
 #img-pg { border-radius: 16px; justify-content: center;}
 
 .service-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap; /* Permite la adaptación a pantallas más pequeñas */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Permite la adaptación a pantallas más pequeñas */
 }
 
 .title {
-  text-align: center;
-  font-size: 2em;
-  margin-bottom: 30px;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
 }
 
 .service {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background-color: #49BFA7;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 15px;
-  text-align: center;
-  transition: transform 0.3s ease;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #49BFA7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
 }
 
 .service:hover {
-  transform: translateY(-10px);
+    transform: translateY(-10px);
 }
 
 .icon {
-  font-size: 2em;
-  margin-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
 
 .service-description {
-  font-size: 1em;
+    font-size: 1em;
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #4BBF9E;
-  padding: 10px 20px;
-}
-
-.navbar-brand {
-  display: flex;
-  align-items: center;
-}
-
-.navbar-brand img {
-  max-height: 50px; 
-}
-
-.navbar-nav {
-  display: flex;
-  list-style: none;
-}
-
-.nav-item {
-  padding: 0 10px;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: white;
-  padding: 5px 10px;
-  transition: color 0.3s;
-}
-
-.nav-link:hover {
-  color: #def;
-}
-
-.custom-search {
-  display: flex;
-  justify-content: center;
-  flex-grow: 1;
-  max-width: 20%;
-}
-
-.search-input {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  outline: none; 
-}
-
-.search-icon {
-  position: absolute;
-  padding: 9px;
-  pointer-events: none;
-}
-
-.action-buttons {
-  display: flex;
-}
-
-
-.quienes-somos-container {
-  background-color: #60E4CB;
-  padding: 25px 80px; 
-  text-align: center;
-  color: black;
-  font-family: 'Montserrat', sans-serif;
-  border-radius: 25px; 
-  margin: 4vw;
-}
-
-.quienes-somos-container h2 {
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px; 
-  font-weight: 800; 
-}
-
-
-.quienes-somos-container p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px; 
-  font-weight: 500; 
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4BBF9E;
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    max-height: 50px; 
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-item {
+    padding: 0 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #def;
+  }
+  
+  .custom-search {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    max-width: 20%;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none; 
+  }
+  
+  .search-icon {
+    position: absolute;
+    padding: 9px;
+    pointer-events: none;
+  }
+  
+  .action-buttons {
+    display: flex;
+  }
