@@ -210,3 +210,27 @@ footer p {
   .action-buttons {
     display: flex;
   }
+
+.quienes-somos-container {
+    background-color: #60E4CB;
+    padding: 25px 80px; 
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 25px; 
+    margin: 4vw;
+}
+
+.quienes-somos-container h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; 
+    font-weight: 800; 
+}
+
+
+.quienes-somos-container p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px; 
+    font-weight: 500; 
+}
